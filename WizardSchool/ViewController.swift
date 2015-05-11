@@ -9,15 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var stuff = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func PlayerButton2(sender: AnyObject) {
+        stuff = 2
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func PlayerButton3(sender: AnyObject) {
+        stuff = 3
+    }
+    
+    @IBAction func PlayerButton4(sender: AnyObject) {
+        stuff = 4
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let dvc = segue.destinationViewController as! MapViewController
+            dvc.numberOfPlayers = stuff
+
     }
 
 

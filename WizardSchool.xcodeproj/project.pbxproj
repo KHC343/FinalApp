@@ -13,6 +13,9 @@
 		3F2D68271AE1696900038438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D68261AE1696900038438 /* Images.xcassets */; };
 		3F2D682A1AE1696900038438 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D68281AE1696900038438 /* LaunchScreen.xib */; };
 		3F2D68361AE1696900038438 /* WizardSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D68351AE1696900038438 /* WizardSchoolTests.swift */; };
+		3F2D68401AE16C5900038438 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D683F1AE16C5900038438 /* MapViewController.swift */; };
+		3FA3E5F01AF3DC1D001B9F87 /* players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3E5EF1AF3DC1D001B9F87 /* players.swift */; };
+		3FAA3BA21AFBF3D30092F458 /* CharacterSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA3BA11AFBF3D30092F458 /* CharacterSheets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		3F2D682F1AE1696900038438 /* WizardSchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizardSchoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2D68341AE1696900038438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F2D68351AE1696900038438 /* WizardSchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardSchoolTests.swift; sourceTree = "<group>"; };
+		3F2D683F1AE16C5900038438 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3FA3E5EF1AF3DC1D001B9F87 /* players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = players.swift; sourceTree = "<group>"; };
+		3FAA3BA11AFBF3D30092F458 /* CharacterSheets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSheets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		3F2D681C1AE1696900038438 /* WizardSchool */ = {
 			isa = PBXGroup;
 			children = (
+				3FA3E5EF1AF3DC1D001B9F87 /* players.swift */,
 				3F2D681F1AE1696900038438 /* AppDelegate.swift */,
 				3F2D68211AE1696900038438 /* ViewController.swift */,
 				3F2D68231AE1696900038438 /* Main.storyboard */,
+				3FAA3BA11AFBF3D30092F458 /* CharacterSheets.swift */,
+				3F2D683F1AE16C5900038438 /* MapViewController.swift */,
 				3F2D68261AE1696900038438 /* Images.xcassets */,
 				3F2D68281AE1696900038438 /* LaunchScreen.xib */,
 				3F2D681D1AE1696900038438 /* Supporting Files */,
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2D68221AE1696900038438 /* ViewController.swift in Sources */,
+				3FA3E5F01AF3DC1D001B9F87 /* players.swift in Sources */,
+				3F2D68401AE16C5900038438 /* MapViewController.swift in Sources */,
+				3FAA3BA21AFBF3D30092F458 /* CharacterSheets.swift in Sources */,
 				3F2D68201AE1696900038438 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				3F2D683B1AE1696900038438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2D683C1AE1696900038438 /* Build configuration list for PBXNativeTarget "WizardSchoolTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				3F2D683E1AE1696900038438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
